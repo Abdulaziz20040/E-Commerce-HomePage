@@ -4,7 +4,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Button } from "antd";
 import { LuEye } from "react-icons/lu";
 import { CiHeart } from "react-icons/ci";
-import start from "./star.jpg";
+import start from "../img/star.jpg";
 
 const ExloreProduct = () => {
   const [posts, setPosts] = useState([]);
