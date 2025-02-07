@@ -48,19 +48,19 @@ const Popularposts = () => {
               <br />
               <span className="text-[32px] font-[700]">03</span>
             </button>
-            <img src={dot} />
+            <img className=" mt-6" src={dot} />
             <button>
               <span className=" text-[12px] font-[500]">Hours</span>
               <br />
               <span className="text-[32px] font-[700]">23</span>
             </button>
-            <img src={dot} />
+            <img className=" mt-6" src={dot} />
             <button>
               <span className=" text-[12px] font-[500]">Minutes</span>
               <br />
               <span className="text-[32px] font-[700]">19</span>
             </button>
-            <img src={dot} />
+            <img className=" mt-6" src={dot} />
             <button>
               <span className=" text-[12px] font-[500]">Seconds</span>
               <br />
