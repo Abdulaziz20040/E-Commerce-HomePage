@@ -35,7 +35,7 @@ function Slider() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
-    }, 3000); // Har 3 soniyada slayder almashadi
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [slides.length]);

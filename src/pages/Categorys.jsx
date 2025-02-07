@@ -1,18 +1,12 @@
 import React, { useState } from "react";
-import {
-  FaArrowLeft,
-  FaArrowRight,
-  FaChevronLeft,
-  FaChevronRight,
-  FaHeart,
-} from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Button } from "antd";
-import phone from "../phone.png";
-import pc from "../pc.jpg";
-import game from "../game.png";
-import chas from "../chas.png";
-import camera from "../camera.png";
-import airpods from "../airpods.png";
+import phone from "../img/phone.png";
+import pc from "../img/pc.jpg";
+import game from "../img/game.png";
+import chas from "../img/chas.png";
+import camera from "../img/camera.png";
+import airpods from "../img/airpods.png";
 
 const Categorys = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

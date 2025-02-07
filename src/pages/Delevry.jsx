@@ -1,13 +1,12 @@
 import React from "react";
-import servece from "../Services.png";
-import servece1 from "../Services (1).png";
-import servece2 from "../Services (2).png";
+import servece from "../img/Services.png";
 
 function Delevry() {
   return (
     <div>
       <div className=" container flex justify-center items-center flex-col mt-20 w-full">
         <div className=" flex items-center justify-between w-[1000px]">
+          {/* 1 */}
           <div className=" flex flex-col items-center justify-center">
             <img className=" w-[80px] h-[80px] mb-4" src={servece} />
             <h3 className=" text-[20px] font-[600] mb-1">

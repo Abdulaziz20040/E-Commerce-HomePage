@@ -1,5 +1,5 @@
 import React from "react";
-import informaImg from "../Frame 600.jpg";
+import informaImg from "../img/Frame 600.jpg";
 
 function Information() {
   return (

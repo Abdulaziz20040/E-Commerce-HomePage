@@ -1,12 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import {
-  FaArrowLeft,
-  FaArrowRight,
-  FaChevronLeft,
-  FaChevronRight,
-  FaHeart,
-} from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Button } from "antd";
 import { LuEye } from "react-icons/lu";
 import { CiHeart } from "react-icons/ci";
@@ -21,7 +15,7 @@ const ExloreProduct = () => {
     axios
       .get("https://1cd9f1e239e62104.mokky.dev/homepage")
       .then((res) => {
-        const filteredPosts = res.data.slice(8); // 8-id'dan keyingi mahsulotlar
+        const filteredPosts = res.data.slice(8);
         setPosts(filteredPosts);
       })
       .catch((error) => console.error("Error fetching posts:", error));

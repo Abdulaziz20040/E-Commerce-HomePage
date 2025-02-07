@@ -6,9 +6,9 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 
-import qrcod from "../Qr Code.png";
-import googe from "../GooglePlay.png";
-import store from "../AppStore.png";
+import qrcod from "../img/Qr Code.png";
+import googe from "../img/GooglePlay.png";
+import store from "../img/AppStore.png";
 
 function Footer() {
   return (

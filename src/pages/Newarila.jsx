@@ -1,8 +1,8 @@
 import React from "react";
-import one from "../one.jpg";
-import wan from "../wan.png";
-import tu from "../tu.png";
-import sri from "../sri.png";
+import one from "../img/one.jpg";
+import wan from "../img/wan.png";
+import tu from "../img/tu.png";
+import sri from "../img/sri.png";
 
 function ProductGrid() {
   return (

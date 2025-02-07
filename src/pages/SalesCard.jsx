@@ -1,17 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import {
-  FaArrowLeft,
-  FaArrowRight,
-  FaChevronLeft,
-  FaChevronRight,
-  FaHeart,
-} from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Button } from "antd";
 import { LuEye } from "react-icons/lu";
 import { CiHeart } from "react-icons/ci";
-import start from "./star.jpg";
-import dot from "../Semiclone.png";
+import start from "../img/star.jpg";
+import dot from "../img/Semiclone.png";
 
 const Popularposts = () => {
   const [posts, setPosts] = useState([]);
